@@ -1,0 +1,92 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Anton|Exo">
+    <style>
+
+    #header {
+      font-family: "Anton", serif;
+      font-size: 230%;
+      color: white;
+      background-color: black;
+      text-align: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      height: 40vh;
+      min-width: 100%;
+    }
+    #summary {
+      font-family: Exo;
+      font-size: 18pt;
+      background-color: white;
+      color: darkblue;
+      height: auto;
+      float: left;
+      padding: 10px
+
+    }
+    #table ul {
+      font-family: Exo;
+      list-style-type: none;
+      background-color: black;
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+      min-width: 100%;
+
+    }
+
+    #table li {
+      float: left;
+    }
+
+    #table li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none
+    }
+
+    #table li a:hover {
+      background-color: #333;
+    }
+
+    #table .active {
+      background-color: white;
+      color: black;
+    }
+    #footer{
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 5px;
+      clear: both;
+    }
+    </style>
+  </head>
+<body>
+
+  <div id="table">
+    <ul>
+      <li><%= link_to "Home", pages_home_path %></li>
+      <li><%= link_to "About", pages_about_path %></li>
+    </ul>
+  </div>
+
+  <div id="header";>
+    <h1> Alpha-Blog </h1>
+  </div>
+
+  <div id="summary";>
+    <h1>Hello!</h1>
+    <p>
+      Welcome to my new HTML practice website. I need to become comfortable using
+      HTML because I want to learn how to build an amazing website for my startup.
+      Good thing I have a great teacher and helpful resources!
+    </p>
+  </div>
+
+  <div id="footer"=>
+    Copyright William D. Gizzi 2016
+  </div>
+
+</body>

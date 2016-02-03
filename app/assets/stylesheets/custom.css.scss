@@ -3,6 +3,13 @@ $navbar-default-bg: #0077b3;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar .nav > li > a, .navbar .nav > li,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+    color: white;                        
+
+}
+
 #logo {
     float: left;
     font-size: 1.7em;
